@@ -1,10 +1,12 @@
 import { Title } from "solid-start";
 import Counter from "~/components/Counter";
+import Article from "~/features/article/components/article";
 export default function Home() {
   return (
     <main>
       <Title>Hello World</Title>
       <h1>Hello world!</h1>
+      <Article />
       <Counter />
       <p>
         Visit{" "}
